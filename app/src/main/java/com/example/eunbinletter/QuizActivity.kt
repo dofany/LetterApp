@@ -16,7 +16,7 @@ class QuizActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_menu)
+        setContentView(R.layout.activity_quiz)
 
         findViewById<ImageView>(R.id.imageMenu).setOnClickListener{
             drawerLayout.openDrawer(GravityCompat.START)
