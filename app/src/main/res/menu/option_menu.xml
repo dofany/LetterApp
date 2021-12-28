@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item android:id="@+id/menu_home"
+            android:title="Home"
+            app:showAsAction="never"/>
+
+        <item android:id="@+id/menu_picture"
+            android:title="사진"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/menu_letter"
+            android:title="편지"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/menu_quiz"
+            android:title="퀴즈"
+
+            app:showAsAction="never"/>
+
+</menu>
