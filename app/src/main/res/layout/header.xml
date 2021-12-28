@@ -5,6 +5,7 @@
     android:layout_height="200dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:padding="10dp"
+    android:alpha="1.0"
     android:background="@drawable/purple">
 
     <com.makeramen.roundedimageview.RoundedImageView
