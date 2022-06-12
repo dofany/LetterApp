@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity()
                 startActivity(intent)
                 overridePendingTransition(R.anim.fade_in,R.anim.fade_out)
 
-            } else if(id == "" && pw == ""){
+            } else if(id == "" || pw == ""){
                 Toast.makeText(this, "아이디 또는 비밀번호를 입력하세요.", Toast.LENGTH_LONG).show()
             } else {
                 // 로그인에 실패하는 경우

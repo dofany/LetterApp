@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="387dp"
+        android:layout_height="760dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text1"
+        style="?android:textAppearanceLarge"
+        android:layout_width="294dp"
+        android:layout_height="417dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="이건 진짜 역대급 여행이었지 그치??\n자전거타고 양평까지 가자는 우리의 무한도전이 결국 다음날 돌아온건 다리에 알이었지....내 킥보드 눈물을 머금고 보내주고 우리 자기랑 자전거 탄게 훨씬 보람차고 재미있었어ㅎㅎㅎ초계국수 못먹은게 좀 아쉽긴 하지만 다음에 먹고싶으면 차타고 가자^^"
+        android:fontFamily="@font/yanolja"
+        android:background="@drawable/edge"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

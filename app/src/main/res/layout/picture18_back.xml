@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="387dp"
+        android:layout_height="760dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text1"
+        style="?android:textAppearanceLarge"
+        android:layout_width="294dp"
+        android:layout_height="417dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="1주년을 앞두고 크리스마스날 조개구이를 노래불러 소래포구를 같이 간 우리 은빈이ㅎㅎㅎ남자친구가 조개 못먹는건 단숨에 무시한채 우리 은빈이가 먹고싶은거 먹었던 내 사랑♥\n덕분에 고기를 배터지게 먹어찌ㅎㅎㅎ와인도 먹자면서 두 잔먹고 바로 잠든 우리 은빈이ㅎㅎㅎ아주 그냥 알콜 상콤이야♥"
+        android:fontFamily="@font/yanolja"
+        android:background="@drawable/edge"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

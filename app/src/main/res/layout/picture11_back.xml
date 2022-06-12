@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="387dp"
+        android:layout_height="760dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text1"
+        style="?android:textAppearanceLarge"
+        android:layout_width="294dp"
+        android:layout_height="417dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="여의도도 자전거를 타고 갔었지 그치??\n우리 자기 인라인타고 싶다고 노래를 불러가지고 안그래도 더위 많이타는 우리 자기 운동도 열심히했지ㅎㅎㅎ나중에 그냥돼지말구 근육돼지 되겄어♥"
+        android:fontFamily="@font/yanolja"
+        android:background="@drawable/edge"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

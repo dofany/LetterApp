@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="387dp"
+        android:layout_height="760dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text1"
+        style="?android:textAppearanceLarge"
+        android:layout_width="294dp"
+        android:layout_height="417dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="전부다 동영상이라서 담지는 못했지만 스포츠몬스터를 은빈이한테 경험시켜줬다.\n거원초 만능 스포츠인 김은빈은 엠씨더맥스 빙의해서 어김없이 거침없었다.\n그 와중에 남자친구 고소공포증있는데 높은곳을 올라가고 싶어하던 은빈씨의 모습이 그대로 내 머릿속에 있네??^^\n스티커 다 모으면 경품준다고 열심히했지~??ㅎㅎ"
+        android:fontFamily="@font/yanolja"
+        android:background="@drawable/edge"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

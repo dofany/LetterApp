@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="387dp"
+        android:layout_height="760dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text1"
+        style="?android:textAppearanceLarge"
+        android:layout_width="294dp"
+        android:layout_height="417dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="드디어 가고싶었던 뜨끈뜨끈 찜질방을 갔는데 식혜를 안팔아서 우리 은빈이 하루죙일 시무룩했던거도 귀여웠는데ㅋㅋㅋㅋㅋㅋㅋ\n아주 그냥 먹을거에는 완전 예민보스여!!!힐링하구 골떡가서 배불띠하게 먹은날ㅎㅎ"
+        android:fontFamily="@font/yanolja"
+        android:background="@drawable/edge"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

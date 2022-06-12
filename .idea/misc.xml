@@ -5,20 +5,102 @@
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.1" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.16510416666666666" />
+        <entry key="app/src/main/res/drawable/edge.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/flip.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.12129629629629629" />
         <entry key="app/src/main/res/drawable/ic_couple.xml" value="0.16510416666666666" />
+        <entry key="app/src/main/res/drawable/ic_eunbinland.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_letter.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_white.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/menupic.xml" value="0.1" />
         <entry key="app/src/main/res/font/fontstyle.xml" value="0.12129629629629629" />
-        <entry key="app/src/main/res/layout/activity_first.xml" value="0.14895833333333333" />
+        <entry key="app/src/main/res/layout/activity_first.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_heart.xml" value="0.1578125" />
         <entry key="app/src/main/res/layout/activity_latter.xml" value="0.2223731884057971" />
-        <entry key="app/src/main/res/layout/activity_letter.xml" value="0.14895833333333333" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_picture.xml" value="0.21569499894964245" />
-        <entry key="app/src/main/res/layout/activity_quiz.xml" value="0.22644927536231885" />
+        <entry key="app/src/main/res/layout/activity_letter.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_letter2.xml" value="0.20018230511788887" />
+        <entry key="app/src/main/res/layout/activity_lettermain.xml" value="0.17144808743169399" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/activity_picture.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_picture1.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/activity_picturerecycle.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_quiz.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_quizmain.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_recycle.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_sing.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_submenu.xml" value="0.1578125" />
-        <entry key="app/src/main/res/layout/appbar.xml" value="0.14895833333333333" />
-        <entry key="app/src/main/res/layout/header.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/appbar.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/first_layout.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/header.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/item_view.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/picture10_back.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture10_flip.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture10_front.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture11_back.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture11_flip.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture11_front.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture12_back.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture12_flip.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture12_front.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture13_back.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture13_flip.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture13_front.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture14_back.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture14_flip.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture14_front.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture15_back.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture15_flip.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture15_front.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture16_back.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture16_flip.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture16_front.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture17_back.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture17_flip.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture17_front.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture18_back.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture18_flip.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture18_front.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture19_back.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture19_flip.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture19_front.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture1_back.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture1_flip.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture1_front.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/picture20_back.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture20_flip.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture20_front.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture21_back.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture21_flip.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture21_front.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture2_back.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture2_flip.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture2_front.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture3_back.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture3_flip.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture3_front.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture4_back.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture4_flip.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture4_front.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture5_back.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture5_flip.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture5_front.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture6_back.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture6_flip.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture6_front.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture7_back.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture7_flip.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture7_front.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture8_back.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture8_flip.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture8_front.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture9_back.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture9_flip.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture9_front.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/picture_back.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/picture_front.xml" value="0.1831081081081081" />
+        <entry key="app/src/main/res/layout/return_view.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/view_return.xml" value="0.1" />
         <entry key="app/src/main/res/menu/option_menu.xml" value="0.25" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>

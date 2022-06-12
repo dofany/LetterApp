@@ -1,21 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/drawer_layout"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fitsSystemWindows="true"
+tools:openDrawer="start">
+
+
+<include
+    layout="@layout/appbar"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".LetterActivity">
+    android:layout_height="match_parent" />
 
-    <include layout="@layout/activity_menu"/>
 
-    <TextView
-        android:id="@+id/hello"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="Letter"
-        tools:ignore="InvalidId,MissingConstraints" />
+        tools:context=".letter.LetterActivity">
+
+        <TextView
+            android:id="@+id/letter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="사랑하는 내 사랑 은빈이에게♥\n\n우리 자기~~우리의 1주년 진심으로 너무너무 축하해용♥♥\n자기가 이런거 만들지 말라고 했지만 나는 기어코 만들고 말았어ㅎㅎㅎ\n비록 별로 마음에 안들더라도 내가 정성스럽게 만들었으니까 한번만 봐줘용ㅎㅎ♥\n그 동안 우리가 안싸운거는 아니지만 심각하게....으음...싸웠구나ㅎㅎㅎ\n내가 우리 은빈이 많이 속상하게해서 미안했어용ㅠㅠ\n그래도 다사다난한 일들이 조금 있었지만 2021년 한 해 동안\n우리 자기 이직하고 나 취업하고 우리 여행도 꽤 다녔구~행복한 일들이 더 많았다고 생각해ㅎㅎ\n자기는 어떨지 모르겠지만 나같은 경우 첫사랑?은 원래 애기일 때 생기는거라 생각해서 패스하구,\n마지막 사랑은 우리 자기로 찍어뒀으니까 내가 열심히할게ㅎㅎ\n항상 놀리고, 장난치고, 그래도 내 애정표현이란 걸 이해해줘서 너무 좋고 고마워ㅎㅎ\n내가 생각해도 짖궂을때가 많은데, 진짜 우리 자기가 돼지같고 못생겨서 이렇게 놀리게 아니야ㅠㅠ\n우리 자기 반응이 항상 너무 귀엽고 새침때기 같은 표정이 정말 너무 귀여워♥♥♥\n특히 잠들기 직전 목소리는 아주 그냥 깨물어주고 싶어ㅎㅎㅎ\n사랑하는 내 사랑 은빈자기♥♥\n내가 많이 부족하지만 앞으로 1년, 10년, 100년까지 평생 사랑할거고,\n평생 사랑하게 만들도록 노력할게♥♥\n나 뻘짓 안하는거 믿어줘서 고맙구 지금처럼 평생 우리 은빈이만 바라볼거야~~♥\n그러니까 이상한 사주같은거 믿으면 안돼!!!알겠지???\n내가 이 앱도 자주자주 업데이트 해줄게ㅎㅎㅎ\n다시 한번 우리 1주년 너무너무 축하하고 항상 고맙고 항상 사랑해 자기야♥ 꼭 결혼하자♥\n\n - 은빈이의 미래 남편 도환이가 -"
+            android:fontFamily="@font/yanolja"
+            tools:ignore="InvalidId,MissingConstraints" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+<com.google.android.material.navigation.NavigationView
+    android:id="@+id/navigationView"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    app:headerLayout="@layout/header"
+    app:menu="@menu/option_menu"
+    app:fontFamily="@font/goyang"
+    android:layout_gravity="start"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

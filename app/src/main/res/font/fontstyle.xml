@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font
+        android:font="@font/yanolja"
+        android:fontStyle="normal"
+        app:font="@font/yanolja"
+        app:fontStyle="normal" />
+    <font
+        android:font="@font/goyang"
+        android:fontStyle="normal"
+        app:font="@font/goyang"
+        app:fontStyle="normal" />
+</font-family>

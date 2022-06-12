@@ -37,6 +37,7 @@
         android:textColor="@color/black"
         android:textSize="28sp"
         android:textStyle="bold"
+        android:fontFamily="@font/goyang"
         app:layout_constraintBottom_toTopOf="@id/viewSupporter"
         app:layout_constraintStart_toEndOf="@id/couple"
         app:layout_constraintTop_toTopOf="parent" />
@@ -46,6 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="16dp"
+        android:fontFamily="@font/goyang"
         android:text="은빈이 놀이터"
         android:textColor="@color/black"
         android:textSize="12sp"

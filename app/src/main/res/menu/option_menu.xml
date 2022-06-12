@@ -17,7 +17,11 @@
         <item
             android:id="@+id/menu_quiz"
             android:title="퀴즈"
+            app:showAsAction="never"/>
 
+        <item
+            android:id="@+id/menu_sing"
+            android:title="노래방"
             app:showAsAction="never"/>
 
 </menu>

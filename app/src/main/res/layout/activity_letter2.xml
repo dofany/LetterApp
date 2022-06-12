@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/drawer_layout"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fitsSystemWindows="true"
+tools:openDrawer="start">
+
+
+<include
+    layout="@layout/appbar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".letter.Letter2Activity">
+
+        <TextView
+            android:id="@+id/letter2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="안녕 우리 알라방~~~♥\n\n그동안 업데이트를 안해줘서 좀 심심했었지??ㅎㅎ 나도 해줘야겠다 해줘야겠다\n하다가 좀 많이 늦어져쪄ㅠㅠ 내가 이거를 만들고, 또 한번 훑어보다가 생각이 들었는데,\n우리가 크게 싸운뒤로는 한번도 안싸웠다~~♥\n그거 좀 우리 많이 성장했다 생각해ㅎㅎㅎ자기랑 얘기할때마다 장난반 진심반으로\n우리 은빈이 놀리거나 장난치면 삐졌는데 많이 변했다라고 얘기했자농~~\n그게 정말 대단한 성장인거 같애ㅋㅋㅋㅋㅋㅋ\n솔직히 말해서 우리 자기한테 장난칠때마다 눈치 좀 보였었거등....\n뭐 지금도 안보는건 아니지만 예전보단 덜하단 느낌이 들어♥\n이렇게 내가 장난이 심해져도 같이 티키타카하면서 노는게 난 너무 즐거워♥\n우리 자기한테 치는 장난이 진심이 아니고 장난인걸 받아줘서 너무 고맙기도해ㅎㅎ\n항상 드는 생각이기도 하고 요즘따라서 계속 드는 생각이\n정말 돈을 빨리모아서 우리 자기랑 같이 살아야겠다 라는 생각을 좀 많이 하고있엉\n같이 살면 손에 물 안묻힌다는 뻔한 거짓말은 못하겠구 항상 웃으면서 살도록 해줄 자신은 있어♥\n 그만큼 무야호하게 만들어 준다 이거지♥\n우리 때징♥ 지금 이 편지 쓰면서도 보고싶단 생각이 잔뜩 들어요ㅠㅠㅠ\n2월부터 바빠질 생각하니까 너무 싫다ㅜㅜ하기 싫지만 우리 때지 사료값 벌려면 열심히 노력해야겠지??ㅠㅠ\n그나저나 나 좀 많이 심각해...\n진짜 16시즌 김도환 아니면 할 일이 아닌 헬스장 다니기를 진지하게 생각하고 있어...\n요즘따라 살이 너무 많이 찐거같아ㅠㅠ우리 자기 나 엄청 자이언트 되도 항상 사랑해줄거지??♥\n아니라고하면 으음....내가 그만큼 많이 빼도록 할게ㅎㅎㅎ\n우리 자기가 나 살찐거 좋다고 해가지고 신나서 더 찌운거아냐!!!!그니까 내 배불뚝이 싫다하지마!!!\n흥흥흥!!!!!사랑하는 내 사랑 은빈이♥요즘 은빈랜드에 소홀해져서 이제 자기가 원하는거 해주넹\n자주라고는 못하겠지만 종종 들어와서 해줄게ㅎㅎㅎ\n그리고 원하는 기능 갖고싶은거 있으면 말해용ㅎㅎㅎ다해줄게~~~우리 자기만을 위한 은빈랜드♥\n항상 많이 사랑하고 항상 이쁘고 항상 귀엽고 항상 깜찍한 내 사랑 은빈아♥\n내가 너무너무 많이많이 정말로 사랑해♥♥♥♥\n다음에 편지 또 써주껭♥사랑해 내 사랑 알라방♥♥♥\n\n - 내 애완돼지 주인 도환이가♥ -"
+            android:fontFamily="@font/yanolja"
+            tools:ignore="InvalidId,MissingConstraints" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+<com.google.android.material.navigation.NavigationView
+    android:id="@+id/navigationView"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    app:headerLayout="@layout/header"
+    app:menu="@menu/option_menu"
+    app:fontFamily="@font/goyang"
+    android:layout_gravity="start"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>
